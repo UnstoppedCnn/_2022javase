@@ -13,6 +13,5 @@ public class ThreeNunMax {
         double maxOfThree1 = (one>two)?(one>three?one:three):(two>three?two:three);
         System.out.println(maxOfThree);
         System.out.println(maxOfThree1);
-        System.out.println(one+"po"+two+"mo");
     }
 }

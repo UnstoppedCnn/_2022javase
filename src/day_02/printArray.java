@@ -11,4 +11,12 @@ public class printArray {
             }
         }
     }
+    public static void swap(double[] array,int a,int b){
+        double temp;
+        if(array[a]>array[b]){
+            temp = array[a];
+            array[a] = array[b];
+            array[b] = temp;
+        }
+    }
 }

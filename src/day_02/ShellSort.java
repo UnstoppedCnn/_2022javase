@@ -11,7 +11,7 @@ public class ShellSort {
             for (int i = step; i < length; i++) {
                 temp = tempArray[i];
                 int j = i - step;
-                while(j>0&&tempArray[j]>temp){
+                while(j>=0&&tempArray[j]>temp){
                     tempArray[j+step] = tempArray[j];
                     j -= step;
                 }
